@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search</title>
+</head>
+
+<body style="font-family: Arial, Helvetica, sans-serif; background-color: #141414;">
+    
+    <div>  
+        <h2 style="color: #ffffff;">Поиск</h2>      
+        <input type="search" placeholder="Введите для поиска">
+        <input type="submit" value="Найти">
+    </div>
+
+    <form style="display: flex; flex-direction: column; width: 600px;">
+        <h3 style="color: #ffffff;">Расширенный поиск</h3>
+        <table cellspacing="0" cellpadding="20" style="background-color: #1B1B1B; border-radius: 20px;">
+            <thead>
+                <tr>
+                    <th><p style="color: #ffffff;"><input type="radio" checked> Все</p></th>
+                    <th><p style="color: #ffffff;"><input type="radio"> Дешевые</p></th>
+                    <th><p style="color: #ffffff;"><input type="radio"> Дорогие</p></th>
+                    <th><p style="color: #ffffff;"><input type="radio"> Популярные</p></th>
+                </tr>
+            </thead>
+        </table>
+
+        <label style="color: #ffffff; margin-top: 30px;">Тип кузова:
+            <select>
+                <option>Кузов 1</option>
+                <option>Кузов 2</option>
+                <option>Кузов 3</option>
+                <option>Кузов 4</option>
+                <option>Кузов 5</option>
+            </select>
+        </label> 
+
+        <label style="color: #ffffff; margin-top: 10px;">Марка авто:
+            <select>
+                <option>Марка 1</option>
+                <option>Марка 2</option>
+                <option>Марка 3</option>
+                <option>Марка 4</option>
+                <option>Марка 5</option>
+            </select>
+        </label> 
+
+        <label style="color: #ffffff; margin-top: 10px;">Страна производитель:
+            <select>
+                <option>Страна 1</option>
+                <option>Страна 2</option>
+                <option>Страна 3</option>
+                <option>Страна 4</option>
+                <option>Страна 5</option>
+            </select>
+        </label> 
+
+        <div style="margin-top: 10px;">
+            <label style="color: #ffffff;">Цена от:
+                <select>
+                    <option>1000</option>
+                    <option>2000</option>
+                    <option>3000</option>
+                    <option>5000</option>
+                    <option>6000</option>
+                </select>
+            </label> 
+    
+            <label style="color: #ffffff; margin-left: 10px;">до:
+                <select>
+                    <option>1000</option>
+                    <option>2000</option>
+                    <option>3000</option>
+                    <option>5000</option>
+                    <option>6000</option>
+                </select>
+            </label> 
+        </div>
+
+        <div style="margin-top: 10px;">
+            <label style="color: #ffffff;">Год выпуска от:
+                <select>
+                    <option>2000</option>
+                    <option>2002</option>
+                    <option>2003</option>
+                    <option>2004</option>
+                    <option>2005</option>
+                </select>
+            </label> 
+    
+            <label style="color: #ffffff; margin-left: 10px;">до:
+                <select>
+                    <option>2000</option>
+                    <option>2002</option>
+                    <option>2003</option>
+                    <option>2004</option>
+                    <option>2005</option>
+                </select>
+            </label> 
+        </div>
+        
+        <label style="color: #ffffff; margin-top: 10px;">Состояние:
+            <input type="checkbox" checked>Битая
+            <input type="checkbox" checked>В кредите
+            <input type="checkbox" checked>Нерастаможенная
+            <input type="checkbox" checked>Растаможенная
+        </label>
+
+        <label style="color: #ffffff; margin-top: 10px;">Тип топлива:
+            <select>
+                <optgroup label="Первые">
+                    <option>Тип топлива 1</option>
+                    <option>Тип топлива 2</option>
+                </optgroup>
+                <optgroup label="Вторые">
+                    <option>Тип топлива 3</option>
+                    <option>Тип топлива 4</option>
+                    <option>Тип топлива 5</option>
+                </optgroup>
+            </select>
+        </label> 
+
+        <label style="color: #ffffff; margin-top: 10px;">Тип коробки передач:
+            <select>
+                <option>Тип коробки передач 1</option>
+                <option>Тип коробки передач 2</option>
+                <option>Тип коробки передач 3</option>
+                <option>Тип коробки передач 4</option>
+                <option>Тип коробки передач 5</option>
+            </select>
+        </label> 
+
+        <label style="color: #ffffff; margin-top: 10px;">Цвет:
+            <input type="checkbox" checked>Красный
+            <input type="checkbox">Синий
+            <input type="checkbox" checked>Зеленый
+            <input type="checkbox">Голубой
+        </label>
+
+        <label style="color: #ffffff; margin-top: 10px;">Комфорт:
+            <input type="checkbox">Люк
+            <input type="checkbox" checked>Кожаный салон
+            <input type="checkbox">Люк
+            <input type="checkbox" checked>Кожаный салон
+        </label>
+ 
+        <div style="margin-top: 30px;">
+            <button type="submit" style=" background-color: #141414; border-color: #B447EB; color: #B447EB; border-radius: 44px; height: 48px; width: 200px;">Сбросить</button>
+            <button type="submit" style="background: linear-gradient(#7047EB, #B447EB); color: #ffffff; border-radius: 44px; height: 48px; width: 200px; border: none">Применить</button>
+        </div>
+
+    </form>
+
+    <p style="color: #808080;">Для сохранения результатов <a href="../form_registration/index.html" style="color: #7047EB;">Зарегистрируйтесь</a> или <a href="../form_authorization/index.html" style="color: #7047EB;">Войдите</a> на сайте</p>
+
+    
+
+
+
+
+
+
+</body>
+</html>
